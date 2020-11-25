@@ -68,6 +68,10 @@ export const Home = () => {
     
     const handleReset = () => {
         setActiveStep(0)
+        setName('')
+        setPlace('')
+        setDuring('')
+        setAction('')
     }
 
     return (
